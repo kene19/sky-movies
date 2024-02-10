@@ -4,6 +4,255 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#firstt{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.500),rgba(0, 0, 0, 0.500)) ,url(photo/sky2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    
+    
+}
+
+.mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hed{
+    
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background:#020101;
+  }
+.logo{
+    
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+}
+.h11{
+
+ margin-left: 5px;
+}
+.hh0{ 
+    height: 22px;
+    
+    position: relative;
+    display: inline-block;
+    
+    
+}
+.hh0:hover > .navv,  .an {
+    display: block;
+   
+    
+}
+.hh0:hover > .navv{
+    
+    height: 90px;
+    
+}
+.navv{
+    
+    width: 350px;
+    position:absolute;
+    top: 23px;
+    padding: 10px 15px 5px 15px ;
+    height: 0px;
+    right: 15px;
+    background-image:linear-gradient(rgba(0,0,0,0.500),rgba(0, 0, 0, 0.500)) ;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+.navv .an{
+    display: block;
+    text-decoration: none;
+    color: #E5E5F7;
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navv .an:hover{
+    border-bottom:1px solid #E5E5F7 ;
+    color: gold;
+}
+.s{
+    color: rgb(11, 170, 11);
+
+}
+.k{
+    color: rgba(247, 247, 9, 0.979);
+}
+.y{
+    color: rgb(207, 30, 30);
+}
+.movies{
+    color: #E5E5F7;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.first10{  
+    
+    margin-top: 0px;
+   width:100%;
+   height: 70vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0));
+   
+}
+.inside0{
+
+    margin-top: 300px;
+    
+   width:100%;
+   height: 30vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(221, 21, 21));
+   transition: 2s;
+}
+.cont0{
+    
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80vh;
+    /* background-color: black; */
+    gap: 3px;
+    overflow: auto;
+    flex-wrap: wrap;
+     
+}
+.con100,.con20,
+.con30,.con40,.con50,
+.con60,.con70,
+.con80,.con90,.con1000{
+    
+    flex: 1 0 300px ;
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    cursor: pointer;
+
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.con100{
+    background-image:url(photo/bir.jpg) ;
+}
+.con20{
+    background-image:url(photo/from.jpg) ;
+}
+.con30{
+    background-image:url(photo/beek.jpg) ;
+}
+.con40{
+    background-image:url(photo/exp.jpg) ;
+}
+.con50{
+    background-image:url(photo/opp.jpg) ;
+}
+.con60{
+    background-image:url(photo/rom.jpg) ;
+}
+.con70{
+    background-image:url(photo/fla.jpg) ;
+}
+.con80{
+    background-image:url(photo/lupin.jpg) ;
+}
+.con90{
+    background-image:url(photo/ali.jpg) ;
+}
+.con1000{
+    background-image:url(photo/bor.jpg) ;
+}
+.con100:hover {
+    
+     flex: 1 0 200px;
+    }
+    .con20:hover {
+        
+        flex: 1 0 300px;
+        height: 400px;
+    }
+     .con20:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con30:hover{
+        flex: 1 0 300px;
+        height: 400px;
+    }
+    .con30:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con40:hover{
+        flex: 1 0 300px;
+        height: 400px;
+    }
+    .con40:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con50:hover{
+        flex: 1 0 300px;
+        height: 400px;
+    }
+    .con50:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con60:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con60:hover{
+        flex: 1 0 300px;
+        height: 400px;
+    }
+    .con70:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con70:hover{
+        flex: 1 0 300px;
+        height: 400px;
+    }
+    .con80:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con80:hover{
+        flex: 1 0 300px;
+        height: 400px;
+    }
+    .con90:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con90:hover{
+        flex: 1 0 300px;
+        height: 400px;
+    }
+    .con1000:hover .inside0 {
+        margin-top: 0px;
+    }
+    .con1000:hover{
+        flex: 1 0 300px;
+        height: 400px;
+     }
+     #active0{
+        
+        flex: 1 0 200px;
+        height: 400px;
+     }
 #first{
     
     background-image: linear-gradient(rgba(0,0,0,0.500),rgba(0, 0, 0, 0.500)) ,url(photo/sky2.jpg);
@@ -82,6 +331,7 @@ h1{
     /* background-color: black; */
     gap: 3px;
     overflow: hidden;
+     
 }
 .first1{  
     
@@ -149,7 +399,7 @@ h1{
 }
 .con1:hover {
     
-     flex: 3;
+flex: 3;
 }
 .con2:hover {
     
@@ -226,8 +476,19 @@ p{
     cursor:text;
     color: rgb(10, 64, 212);
 }
-
-
+@media screen and (max-width:600px) {
+    #first{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+}
+@media screen and (min-width:600px) {
+    #firstt{
+        display: none;
+    }
+}
 
    
 
