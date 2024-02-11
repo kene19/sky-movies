@@ -480,6 +480,7 @@ p{
     #first{
         display: none;
     }
+<<<<<<< HEAD
    h1{
        font-size: 15px;
    }
@@ -487,6 +488,9 @@ p{
      width: 200px;
      height: 200px;
    }
+=======
+    
+>>>>>>> 670f224a7cfb07737e3fe3c65da90a0f39458497
 }
 @media screen and (min-width:600px) {
     #firstt{
