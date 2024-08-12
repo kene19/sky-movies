@@ -26,4 +26,4 @@ Sky Movies is a web-based platform that showcases a collection of top movies and
 ## Usage
 Once you have the project set up locally, you can:
 
-<a href="">sky movies</a>
+<a href="https://kene19.github.io/sky-movies/">sky movies</a>
